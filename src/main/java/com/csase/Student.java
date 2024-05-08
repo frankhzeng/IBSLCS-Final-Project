@@ -13,9 +13,9 @@ public class Student {
     /*
      * Sets study planner and scanner
      */
-    public Student {
-        planner = new StudyPlanner();
-        scanner = new Scanner(System.in);
+    public Student () {
+        this.planner = new StudyPlanner();
+        this.scanner = new Scanner(System.in);
     }
     
     /*
